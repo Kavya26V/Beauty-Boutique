@@ -1,0 +1,323 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(151, 101, 94, 0.712);
+}
+
+
+ #logo{
+    position:absolute;
+ }
+ #back{
+    position:absolute;
+ }
+ h1{
+    text-align: center;
+    justify-content: space-around;
+ }
+ .ul{
+    list-style-type: none;
+    display: inline-block;
+    transform: skew(-25deg);
+    position: relative;
+    margin-left: 660px;
+    margin-top:20px;
+   
+ }
+ .ul li{
+     background-color:rgba(121, 98, 114, 0.904);
+     float:left;
+     border-right: 1px solid rgba(36, 33, 35, 0.349);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:white;
+     font-size: 20px;
+     font-weight: 400;
+ }
+ .ul li a{
+     display: block;
+     text-decoration: none;
+     padding: 10px 20px;
+     color: inherit;
+     transform: skew(25deg);
+    text-transform: uppercase;
+     
+ }
+ nav ul li:first-child{
+     border-radius:5px 0 0 5px;
+ }
+ nav ul li:last-child{
+     border-radius:0 5px 5px 0;
+ }
+
+
+
+li:hover{
+    background-color: rgb(122, 82, 80);
+}
+.loca{
+    list-style-type: none;
+    background-color:rgba(94, 66, 66, 0.904);
+    display:none;
+    pointer-events: none;
+}
+
+.ul li:nth-child(3):hover .loca{
+    display:contents;
+}
+#book{
+    color: rgba(255, 235, 205, 0.562);
+    margin-top: 330px;
+    margin-left:auto;
+    text-align: center;
+    
+}
+#book h2{
+    text-align: center;
+}
+#vis{
+   width: 30%;
+   height:fit-content;
+   background-color: rgba(77, 5, 59, 0.397);
+   margin-left: 80px;
+   margin-top: 60px;
+   position: absolute;
+}
+#vis h2{
+    font-size:30px;
+    color: rgba(97, 51, 7, 0.651);
+    text-align: center;
+}
+
+#vis p{
+    font-size: 20px;
+    color: rgba(217, 216, 219, 0.658);
+    text-align:justify;
+}
+#mis{
+    width: 30%;
+    height:fit-content;
+    background-color: rgba(77, 5, 59, 0.397);
+    margin-left: 80px;
+    margin-top: 300px;
+    position: absolute;
+ }
+ #mis h2{
+     font-size:30px;
+     color: rgba(97, 51, 7, 0.651);
+     text-align: center;
+ }
+ 
+ #mis p{
+     font-size: 20px;
+     color: rgba(217, 216, 219, 0.658);
+     text-align:justify;
+ }
+.main{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin-left: 700px;
+    margin-top: 170px;
+    
+}
+.card{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+}
+.front{
+    position: absolute;
+    backface-visibility: hidden;
+    
+   
+}
+.back{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    backface-visibility: hidden;
+    background: rgba(179, 61, 61, 0.24);
+    transform: rotateY(180deg);
+    color: rgba(58, 32, 151, 0.651);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.back a{
+    text-decoration: none;
+}
+
+    
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+.main1{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin-left: 300px;
+    margin-top: 50px;
+    
+}
+.card1{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    transform-style:preserve-3d;
+    transition: 0.5s ease;
+    
+}
+.front1{
+    position: absolute;
+    backface-visibility: hidden;
+    
+   
+}
+.back1{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    backface-visibility: hidden;
+    background: rgba(179, 61, 61, 0.24);
+    transform: rotateY(-180deg);
+    color: rgba(58, 32, 151, 0.651);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.back1 a{
+    text-decoration: none;
+}
+
+    
+
+.card1:hover{
+    transform: rotateY(-180deg);
+}
+
+.last{
+    width:100%;
+    height:fit-content;
+    background-color: rgba(26, 26, 25, 0.295);
+}
+
+.last div:nth-child(1){
+    width: 25%;
+    height: 25%;
+}
+
+.last div:nth-child(2){
+    width: 25%;
+    height: 25%;
+}
+
+.last div:nth-child(3){
+    width: 25%;
+    height: 25%;
+}
+
+.last div:nth-child(4){
+    width: 25%;
+    height: 25%;
+}
+
+.last{
+    display: flex;
+}
+
+.last div h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(81, 5, 124, 0.979)
+}
+
+.last div p{
+    color: rgba(228, 235, 236, 0.514);
+    text-align: center;
+}
+#p{
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.last div:nth-child(2){
+    text-transform: capitalize;
+}
+.last div li{
+    text-align: center;
+    text-transform: capitalize;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+.last a:nth-child(1){
+    display:block;
+    text-align: center;
+}
+.last a:nth-child(2){
+    display:block;
+    text-align: center;
+}
+.last a:nth-child(3){
+    display: block;
+    text-align: center;
+}
+
+.last i:nth-child(4){
+    display: block;
+    text-align: center;
+}
+.last div a{
+    padding-bottom: 10px;
+    color: rgba(228, 235, 236, 0.514);
+}
+.last div a:nth-child(4){
+    padding-left: 10px;
+}
+.last div div:nth-child(4){
+    display:flex;
+    margin-left: 110px;
+}
+.last div div a{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+footer{
+    display: inline-flex;
+    text-transform: capitalize;
+    
+}
+#foot{
+    margin-left:80%;
+    margin-top: 10px;
+}
+#foot1{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+}
+footer{
+    height: max-content;
+}
+
+
+

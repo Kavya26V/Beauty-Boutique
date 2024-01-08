@@ -1,0 +1,93 @@
+body{
+   
+    display: flex;
+   
+}
+#book{
+    color: rgba(255, 235, 205, 0.562);
+    margin-top: 370px;
+    margin-left: -90px
+    
+}
+#book h2{
+    text-align: center;
+}
+.ul{
+   list-style-type: none;
+   display: inline-block;
+   transform: skew(-25deg);
+   position: absolute;
+  
+}
+li{
+    background-color:rgba(94, 66, 66, 0.904);
+    float:left;
+    border-right: 1px solid rgba(36, 33, 35, 0.349);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: inherit;
+    transform: skew(25deg);
+   text-transform: uppercase;
+    
+}
+nav ul li:first-child{
+    border-radius:5px 0 0 5px;
+}
+nav ul li:last-child{
+    border-radius:0 5px 5px 0;
+}
+#logo{
+    margin-top: 20px;
+   position: absolute; 
+    
+}
+#nav{
+    margin-left: 174px;
+    margin-top: 107px;
+}
+
+
+li:hover{
+    background-color: rgb(168, 138, 162);
+}
+.loca{
+    list-style-type: none;
+    background-color:rgba(94, 66, 66, 0.904);
+    display: none;
+}
+
+.ul li:nth-child(3):hover .loca{
+    display:contents
+}
+
+.hamb{
+    height: 3px;
+    width: 20px;
+    background-color: black;
+    margin-bottom: 3px;
+}
+.ham{
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+#vedio{
+    height: 550px;
+    width: 100%;
+    background-color: blue;
+    margin-top: 200px;
+    
+}
+#head h1{
+    margin-top: 800px;
+    position: absolute;
+    text-align: center;
+}

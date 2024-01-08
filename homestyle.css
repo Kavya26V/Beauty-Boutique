@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(148, 111, 55);
+} 
+div{
+    
+    flex-direction: row;
+    justify-content:space-evenly
+}

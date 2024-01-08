@@ -1,0 +1,343 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(151, 101, 94, 0.712);
+}
+
+
+ #logo{
+    position:relative;
+ }
+ #back{
+    position:absolute;
+    margin-top: 152px;
+ }
+ h1{
+    text-align: center;
+    justify-content: space-around;
+ }
+ .ul{
+    list-style-type: none;
+    display: inline-block;
+    transform: skew(-25deg);
+    position: absolute;
+    margin-left: 560px;
+    
+    margin-top: -90px;
+   
+ }
+ .ul li{
+     background-color:rgba(121, 98, 114, 0.904);
+     float:left;
+     border-right: 1px solid rgba(36, 33, 35, 0.349);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:white;
+     font-size: 20px;
+     font-weight: 400;
+ }
+ .ul li a{
+     display: block;
+     text-decoration: none;
+     padding: 10px 20px;
+     color: inherit;
+     transform: skew(25deg);
+    text-transform: uppercase;
+     
+ }
+ nav ul li:first-child{
+     border-radius:5px 0 0 5px;
+ }
+ nav ul li:last-child{
+     border-radius:0 5px 5px 0;
+ }
+
+
+
+li:hover{
+    background-color: rgb(122, 82, 80);
+}
+.loca{
+    list-style-type: none;
+    background-color:rgba(94, 66, 66, 0.904);
+    display:none;
+    pointer-events: none;
+}
+
+.ul li:nth-child(3):hover .loca{
+    display:contents;
+}
+
+#tag{
+    margin-top: 400px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#hair{
+    margin-left: 400px;
+    margin-top: 70px;
+}
+#skin{
+    margin-left: 600px;
+    margin-top: 10px;
+    position: absolute;
+    margin-top: -132px;
+}
+#foot{
+    margin-left: 800px;
+    margin-top: -132px;
+    position: absolute;
+}
+#tatoo{
+    margin-left: 400px;
+    margin-top: 60px;
+}
+#beard{
+    margin-left: 600px;
+    margin-top: -132px;
+    position: absolute;
+}
+#massage{
+    margin-left: 800px;
+    margin-top: -132px;
+    position: absolute;
+}
+
+hr{
+    border: 0;
+    height: 4px;
+    width: 77%;
+    color:rgba(80, 12, 12, 0.363);
+    border-width:0;
+    margin-top: 30px;
+    position: absolute;
+    margin-left:150px;
+}
+.hr{
+    background-image: 
+             linear-gradient(to right,rgba(0,0,0,0),rgba(80, 12, 12, 0.363),rgba(0,0,0,0));
+}
+.vertical{
+    border-left: 4px solid rgb(187, 173, 92);
+    margin-left: 565px;
+    margin-top: -115px;
+    height: 300px;
+    position: absolute;
+    border-image: linear-gradient(rgba(0,0,0,0),rgba(80, 12, 12, 0.363),rgba(0,0,0,0)) 1 100%;
+}
+.vertical1{
+    border-left: 4px solid rgb(187, 173, 92);
+    margin-left: 765px;
+    margin-top: -115px;
+    height: 300px;
+    position: absolute;
+    border-image: linear-gradient(rgba(0,0,0,0),rgba(80, 12, 12, 0.363),rgba(0,0,0,0)) 1 100%;
+}
+
+div h1{
+    text-transform: capitalize;
+    margin-top: 60px;
+    background-color: blueviolet;
+}
+#h{
+    background-color: cadetblue;
+    width:auto;
+    height:500px;
+    margin-top: 30px;
+}
+div p{
+    position: absolute;
+    margin-top: 230px;
+    text-align: justify;
+    text-transform: capitalize;
+    margin-left: 100px;
+}
+div h2{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 100px;
+}
+div iframe{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 342px;
+}
+
+
+div h1{
+    text-transform: capitalize;
+    margin-top: 60px;
+    background-color: blueviolet;
+}
+#h{
+    background-color: cadetblue;
+    width:auto;
+    height:500px;
+    margin-top: 30px;
+}
+div p{
+    position: absolute;
+    margin-top: 230px;
+    text-align: justify;
+    text-transform: capitalize;
+    margin-left: 100px;
+}
+div h2{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 100px;
+}
+#if1{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 342px;
+}
+#if{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 342px;
+}
+
+.last{
+    width:100%;
+    height:max-content;
+    background-color: rgba(26, 26, 25, 0.295);
+    position:relative;
+    margin-top: -130px;
+    
+}
+
+.last div:nth-child(1){
+    width: 25%;
+    height:max-content;
+}
+
+.last div:nth-child(2){
+    width: 25%;
+    height:max-content;
+}
+
+.last div:nth-child(3){
+    width: 25%;
+    height:max-content;
+}
+
+.last div:nth-child(4){
+    width: 25%;
+    height:max-content;
+}
+
+.last{
+    display: flex;
+}
+
+.last div h2{
+    
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(81, 5, 124, 0.979)
+}
+
+
+
+.last div:nth-child(2){
+    text-transform: capitalize;
+}
+.last div li{
+    text-align: center;
+    text-transform: capitalize;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+.last a:nth-child(1){
+    display:block;
+    text-align: center;
+}
+.last a:nth-child(2){
+    display:block;
+    text-align: center;
+}
+.last a:nth-child(3){
+    display: block;
+    text-align: center;
+}
+
+.last i:nth-child(4){
+    display: block;
+    text-align: center;
+}
+.last div a{
+    padding-bottom: 20px;
+    color: rgba(228, 235, 236, 0.514);
+}
+.last div a:nth-child(4){
+    padding-left: 10px;
+}
+.last div div:nth-child(4){
+    display:flex;
+    margin-left: 110px;
+}
+.last div div a{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+footer{
+    display: inline-flex;
+    text-transform: capitalize;
+    
+}
+#foot2{
+    margin-left:80%;
+    margin-top: 10px;
+}
+#foot1{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+}
+footer{
+    height: max-content;
+}
+#list{
+    margin-top: 50px;
+    margin-right: 40px;
+}
+#list li{
+    padding-top: 15px;
+    color: rgba(228, 235, 236, 0.514);
+}
+
+#our{
+    margin-top: 50px;
+    margin-right:5px;
+}
+
+#hi{
+    margin-top: 60px;
+}
+
+#divv{
+    color: rgba(228, 235, 236, 0.514);
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+#divp{
+    text-align:justify;
+    display:contents;
+}
+#message{
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#change{
+    padding-top: 30px;
+}
+
